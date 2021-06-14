@@ -1,0 +1,22 @@
+.about__title {
+    font-family: 'Zetafonts';
+    font-size: 3.5em;
+    letter-spacing: -1.5px;
+    line-height: 110%;
+    margin: 0;
+    transition: all .2s ease-in-out;
+}
+
+@media screen and (min-width: 1000px) {
+    .about__title {
+        font-size: 4.5em;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .about__title {
+        font-size: 3em;
+    }
+}
+
+

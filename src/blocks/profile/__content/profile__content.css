@@ -1,0 +1,4 @@
+.profile__content {
+    grid-area: content;
+    justify-content: center;
+}

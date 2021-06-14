@@ -1,0 +1,16 @@
+.page__thoughts {
+    display: block;
+    width: auto;
+    background-color: #aecde5;
+    font-family: 'Biotif', 'Zetafonts',Arial, sans-serif;
+    color: #f3ffff;
+    padding-top: 28px;
+    margin: 0 auto;
+    overscroll-behavior: none;
+    overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+}

@@ -1,0 +1,13 @@
+.about {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 80px;
+    position: relative;
+}
+
+@media screen and (max-width: 420px) {
+    .about {
+        padding-top: 45px;
+    }
+    
+}

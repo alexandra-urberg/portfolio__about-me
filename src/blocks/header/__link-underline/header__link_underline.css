@@ -1,0 +1,23 @@
+.header__link-underline {
+    position: relative;
+}
+
+.header__link-underline:hover::after { 
+    width: 100%; 
+    left: 0; 
+}
+
+.header__link-underline::after {
+  /**background: none repeat scroll 0 0 transparent;**/
+  bottom: -8px;
+  content: "";
+  display: block;
+  height: 3px;
+  right: 0;
+  position: absolute;
+  display: block;
+  background: #f3ffff;
+  transition: all .1s cubic-bezier(.175,.885,.32,1.275);
+  transform: translate3d(0,5px, 0);
+  width: 0;
+}

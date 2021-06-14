@@ -1,0 +1,10 @@
+.footer__links {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+    width: 40%;
+    margin: 0 auto;
+    padding: 0;
+}

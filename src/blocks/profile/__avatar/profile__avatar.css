@@ -1,0 +1,5 @@
+.profile__avatar {
+    grid-area: avatar;
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,17 @@
+.sheet {
+    display: block;
+    width: auto;
+    background: rgb(94,103,116);
+    background: linear-gradient(180deg, rgba(94,103,116,1) 25%, rgba(174,205,229,1) 58%);
+    font-family: 'Biotif', 'Zetafonts',Arial, sans-serif;
+    color: #f3ffff;
+    padding-top: 28px;
+    margin: 0 auto;
+    overscroll-behavior: none;
+    overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+}

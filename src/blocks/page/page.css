@@ -1,0 +1,39 @@
+.page {
+    display: block;
+    width: auto;
+    background: rgb(174,205,229);
+    background: linear-gradient(180deg, rgba(174,205,229,1) 16%, rgba(243,255,255,1) 59%, rgba(255,183,0,1) 100%);
+    font-family: 'Biotif', 'Zetafonts',Arial, sans-serif;
+    color: #989896;
+    padding-top: 28px;
+    margin: 0 auto;
+    overscroll-behavior: none;
+    overflow-x: hidden;
+    
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+
+    /**background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	animation: gradient 15s ease infinite;**/
+}
+
+/**@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+    .page {
+        margin: 0 auto; 
+    }
+}**/

@@ -1,0 +1,17 @@
+@font-face {
+    src: url(./Biotif-Bold.ttf) format('truetype');
+    font-family: 'Biotif';
+    font-style: bold;
+}
+
+@font-face {
+    src: url(./Biotif-Regular.ttf) format('truetype');
+    font-family: 'Biotif';
+    font-style: normal;
+}
+
+@font-face {
+    src: url(./zetafonts-bogart-semibold.otf) format('opentype');
+    font-family: 'Zetafonts';
+    font-style: bold;
+}

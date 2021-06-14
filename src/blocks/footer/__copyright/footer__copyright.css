@@ -1,0 +1,13 @@
+.footer__copyright {
+    z-index: 1;
+    font-size: 0.8em;
+    margin: 0;
+    padding: 0;
+    align-self: center;
+}
+
+@media screen and (min-width: 320px) and (max-width: 880px) {
+    .footer__copyright {
+        font-size: 0.6em;
+    }
+}

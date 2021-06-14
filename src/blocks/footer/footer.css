@@ -1,0 +1,11 @@
+.footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../../images/4k-forest.png); 
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 30px;
+    flex-shrink: 0;
+}

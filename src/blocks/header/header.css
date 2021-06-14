@@ -1,0 +1,7 @@
+.header {
+    max-width: 1280px;
+    display: flex;
+    flex-direction: row;
+    box-sizing: content-box;
+    margin: 0 auto;
+}
