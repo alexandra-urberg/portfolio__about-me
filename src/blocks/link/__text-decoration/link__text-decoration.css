@@ -1,0 +1,6 @@
+.link__text-decoration {
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    border: none;
+}

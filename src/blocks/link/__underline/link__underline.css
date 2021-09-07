@@ -1,13 +1,13 @@
-.header__link-underline {
-    position: relative;
+.link__underline {
+  position: relative;
 }
-
-.header__link-underline:hover::after { 
-    width: 100%; 
-    left: 0; 
+  
+.link__underline:hover::after { 
+  width: 100%; 
+  left: 0; 
 }
-
-.header__link-underline::after {
+  
+.link__underline::after {
   /**background: none repeat scroll 0 0 transparent;**/
   bottom: -8px;
   content: "";
@@ -16,7 +16,8 @@
   right: 0;
   position: absolute;
   display: block;
-  background: #f3ffff;
+  color: #fff;
+  background: linear-gradient(271deg,#a0e9ff 30%,#a162e8 50%,#f093b0 70%,#edca85 94%);
   transition: all .1s cubic-bezier(.175,.885,.32,1.275);
   transform: translate3d(0,5px, 0);
   width: 0;

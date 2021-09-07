@@ -1,0 +1,12 @@
+.about__arror-block {
+    width:100px;
+    height:100px;
+    margin: 40px auto 0;
+    z-index: 0;
+}
+
+@media screen and (min-width: 370px) and (max-width: 380px) {
+    .about__arror-block {
+       margin: 120px auto 0;
+    }
+}

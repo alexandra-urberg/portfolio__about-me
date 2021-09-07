@@ -1,12 +1,8 @@
 .page {
-    display: block;
-    width: auto;
+    height: 80vh;
     background: rgb(174,205,229);
-    background: linear-gradient(180deg, rgba(174,205,229,1) 16%, rgba(243,255,255,1) 59%, rgba(255,183,0,1) 100%);
     font-family: 'Biotif', 'Zetafonts',Arial, sans-serif;
-    color: #989896;
-    padding-top: 28px;
-    margin: 0 auto;
+    color: #fff;
     overscroll-behavior: none;
     overflow-x: hidden;
     

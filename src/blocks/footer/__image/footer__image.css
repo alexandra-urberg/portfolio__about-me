@@ -5,9 +5,11 @@
 }
 
 .footer__image:hover {
-    width: 35px;
-    height: 35px;
+    background-color:  #7ec1d8;
+    border-radius: 80%;
     transition: all 0.3s ease-in-out;
+    box-shadow:  41px 41px 92px #7ec1d8,
+             -41px -41px 92px #aaffff;
 }
 
 @media screen and (min-width: 889px) and (max-width: 1200px) {

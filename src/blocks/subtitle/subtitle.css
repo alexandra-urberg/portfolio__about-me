@@ -1,0 +1,19 @@
+.subtitle {
+    font-family: 'Biotif';
+    font-style: normal;
+    font-size: 1.1em;
+    line-height: 1.7;
+}
+
+@media screen and (min-width: 401px) {
+    .subtitle {
+        margin: 1.3em 0 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .subtitle {
+        margin: 0 auto;
+    }
+}
+
