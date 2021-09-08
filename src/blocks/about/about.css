@@ -1,11 +1,21 @@
 .about {
-    padding: 60px 0 100px;
-    margin: 0 auto;
+    padding: 130px 0 80px;
 }
 
-@media screen and (max-width: 410px) {
+@media screen and (min-width: 501px) and (max-width: 550px) {
     .about {
-        padding: 0;
-    }
-    
+        padding: 60px 0 40px;
+    } 
+} 
+
+@media screen and (min-width: 330px) and (max-width: 500px) {
+    .about {
+        padding: 100px 0 80px;
+    } 
+}
+
+@media screen and (max-width: 330px) {
+    .about {
+        padding: 80px 0 60px;
+    } 
 }

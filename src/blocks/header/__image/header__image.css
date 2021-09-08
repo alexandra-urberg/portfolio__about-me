@@ -1,4 +1,4 @@
-@-webkit-keyframes header__image {
+@keyframes header__image {
     0% { -webkit-transform: translate(2px, 1px) rotate(0deg); }
     10% { -webkit-transform: translate(-1px, -2px) rotate(-1deg); }
     20% { -webkit-transform: translate(-3px, 0px) rotate(1deg); }
@@ -19,6 +19,12 @@
 }
 .header__image:hover,
 .header__image:focus {
+    animation-name: header__image;
+    animation-duration: 0.8s;
+    transform-origin:50% 50%;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    
     -webkit-animation-name: header__image;
     -webkit-animation-duration: 0.8s;
     -webkit-transform-origin:50% 50%;
@@ -28,7 +34,7 @@
 
 @media screen and (min-width: 1300px) {
     .header__image {
-        margin-right: 70%;
+        margin-right: 60%;
         width: 140px;
         height: 140px;
     }
@@ -36,7 +42,7 @@
 
 @media screen and (min-width: 1000px)  and (max-width: 1299px) {
     .header__image {
-        margin-right: 60%;
+        margin-right: 50%;
         width: 120px;
         height: 120px;
     }
@@ -44,7 +50,7 @@
 
 @media screen and (min-width: 850px) and (max-width: 999px){
     .header__image {
-        margin-right: 50%;
+        margin-right: 40%;
         width: 110px;
         height: 110px;
     }
@@ -52,7 +58,7 @@
 
 @media screen and (min-width: 550px) and (max-width: 849px) {
     .header__image {
-        margin-right: 40%;
+        margin-right: 30%;
         width: 110px;
         height: 110px;
     }

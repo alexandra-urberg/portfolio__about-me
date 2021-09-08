@@ -2,3 +2,11 @@
     width: 40px;
     height: 40px;
 }
+
+.projects__icon-home:hover {
+    background-color: rgb(233, 77, 199);
+    border-radius: 500%;
+    /**transition: all 0.3s ease-in-out;**/
+    box-shadow:  41px -41px 82px #d9d9d9,
+    -41px 41px 82px #fff;
+}

@@ -1,17 +1,19 @@
 .header {
-    max-width: 1280px;
-    display: flex;
-    flex-direction: column;
+    position: static;
+    position: sticky;
+    top: 0;
+    width: 100%;
     box-sizing: content-box;
-    padding: 80px 0;
-    margin: 0 auto;
+    padding: 30px 0 10px;
+    background-color: inherit;
+    z-index: 1;
+
+    position: -webkit-sticky; /* Safari */
 }
 
 
 @media screen and (max-width: 550px) {
     .header {
-        padding: 40px 0 80px;
-        padding: 40px 0;
-    }
-    
+        padding: 30px 0 10px;
+    }   
 }

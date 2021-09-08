@@ -1,15 +1,14 @@
 .profile {
-    margin: 0 auto;
-    padding: 40px 0 60px;
+    padding: 120px 0 160px;
 }
 
 @media screen and (max-width: 420px) {
     .profile {
-        padding: 50px 0 40px;
+        padding: 70px 0 40px;
     }
 }
 
-@media screen and (min-width: 370px) and (max-width: 380px) {
+@media screen  and (max-width: 380px) {
     .profile {
         padding: 100px 0 40px;
     }

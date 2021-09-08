@@ -5,7 +5,6 @@
 @import url(../blocks/header/__navigation/header__navigation.css);
 @import url(../blocks/header/__links/header__links.css);
 @import url(../blocks/header/__image/header__image.css);
-@import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/link/link.css);
 @import url(../blocks/link/__underline/link__underline.css);
 @import url(../blocks/title/title.css);
@@ -17,8 +16,6 @@
 @import url(../blocks/container/container.css);
 @import url(../blocks/subtitle/subtitle.css);
 @import url(../blocks/link/__text-decoration/link__text-decoration.css);
-@import url(../blocks/about/__arror-block/about__arror-block.css);
-@import url(../blocks/navigation-arrow/navigation-arrow.css);
 @import url(../blocks/profile/profile.css);
 @import url(../blocks/profile/__container/profile__container.css);
 @import url(../blocks/profile/__avatar/profile__avatar.css);
@@ -28,8 +25,6 @@
 @import url(../blocks/projects/__grid-items/projects__grid-items.css);
 @import url(../blocks/projects/__grid-item/projects__grid-item.css);
 @import url(../blocks/projects/__image/projects__image.css);
-@import url(../blocks/link/__position/link__position.css);
-@import url(../blocks/projects/__icon-home/projects__icon-home.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__navigation/footer__navigation.css);
 @import url(../blocks/footer/__links/footer__links.css);

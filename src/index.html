@@ -14,25 +14,22 @@
             <nav class="header__navigation">
                 <ul class="header__links">
                     <li class="header__image"></li>
-                    <li><a class="link link__underline" href="#profile">About</a></li>
-                    <li><a class="link link__underline" href="#projects">Projects</a></li>
+                    <li><a class="link" data-page="about" href="#about">Ноme</a></li>
+                    <li><a class="link" data-page="profile" href="#profile">About</a></li>
+                    <li><a class="link" data-page="projects" href="#projects">Projects</a></li>
+                    <div class="link__underline"></div>
                 </ul>
             </nav>
         </header>
         <main class="main">
-            <section class="about">
+            <section data-index="0" id="about" class="about">
                 <div class="about__container"> 
                     <h1 class="title">Hi. I'm Sasha.</h1>
                     <h2 class="title">A junior web-developer.</h2>
                     <p class="subtitle">Currently I'm a student at Yandex Practicum. In the end of the program I'll know HTML, CSS, JS, React, basicks of the Back-end Development and more.</p>
                 </div>
-                <div class="about__arror-block">
-                    <a href="#profile">
-                        <div class="navigation-arrow"></div>
-                    </a>
-                </div>
             </section>
-            <section id="profile" class="section profile">
+            <section data-index="1" id="profile" class="profile">
                 <div class="container profile__container">
                     <div class="profile__avatar profile__avatar-img"></div>
                     <div class="profile__content">
@@ -42,7 +39,7 @@
                     </div>
                 </div>
             </section>
-            <section id="projects" class="section projects">
+            <section data-index="3" id="projects" class="projects">
                 <ul class="projects__grid-items">
                     <li class="projects__image">
                         <p class="subtitle"> Most of my projects contains JS, CSS and HTML code. </p>
@@ -69,7 +66,6 @@
                         </a>
                     </li>
                 </ul>
-                <a class="link__position" href="#navigation"><img class="projects__icon-home" src="./images/home-sign.svg"></a>
             </section>
         </main>
         <footer class="footer">
@@ -82,5 +78,6 @@
             </nav> 
             <p class="footer__copyright">&#169; 2021. Alexandra</p>
         </footer>
+        <script src="./pages/app.js"></script>
     </body>
 </html>
