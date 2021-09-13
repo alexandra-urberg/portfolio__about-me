@@ -54,12 +54,9 @@ const closeByEsc = (event) => { //function of closing the section by click at ES
     }    
 }
 
-steckContainers.forEach((container) => { //function of closing the section by clicking the button close or  overlay 
-    container.addEventListener('click', (evt) => { 
-        if(evt.target.classList.contains('active')) { 
-            closeContainer(container);
-        } 
-        if(evt.target.classList.contains('cancel-cross')) { 
+steckContainers.forEach((container) => { //function of closing the section by clicking the button close 
+    container.addEventListener('click', (evt) => {  
+        if(evt.target.classList.contains('cancel-cross__img')) { 
             closeContainer(container);
         } 
     }) 
