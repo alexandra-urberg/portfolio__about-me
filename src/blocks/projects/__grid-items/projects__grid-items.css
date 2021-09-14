@@ -5,20 +5,20 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, 400px);
     justify-content: center;
-    gap: 18px;
+    gap: 40px;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1100px) {
     .projects__grid-items {
         grid-template-columns: repeat(auto-fit, 300px);
-        gap: 16px;
+        gap: 32px;
     }
 }
 
 @media screen and (min-width: 801px) and (max-width: 1023px) {
     .projects__grid-items {
         grid-template-columns: repeat(auto-fit, 352px);
-        gap: 20px;
+        gap: 30px;
     }
 }
 

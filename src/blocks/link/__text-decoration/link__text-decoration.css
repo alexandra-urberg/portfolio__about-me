@@ -4,3 +4,7 @@
     color: #fff;
     border: none;
 }
+
+.link__text-decoration:hover {
+    opacity: 0.6;
+}

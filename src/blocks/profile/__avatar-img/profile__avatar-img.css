@@ -1,7 +1,7 @@
 .profile__avatar-img {
-    background-image: url(../../../images/DSC_08091.jpg);
+    background-image: url(../../../images/IMG_4588.JPG);
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
     width: 300px;
     height: 400px;
     display: block;
@@ -13,6 +13,7 @@
 
 .profile__avatar-img:hover {
     background-image: url(../../../images/Снимок\ экрана\ 2021-09-03\ в\ 22.39.50.png);
+    background-position: top;
 }
 
 @media screen and (min-width: 592px) and (max-width: 730px) {
