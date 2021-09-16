@@ -87,3 +87,20 @@
         height: 60px;
     }
 }
+
+@media (hover) {
+    .header__image:hover,
+    .header__image:focus {
+        animation-name: header__image;
+        animation-duration: 0.8s;
+        transform-origin:50% 50%;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+    
+        -webkit-animation-name: header__image;
+        -webkit-animation-duration: 0.8s;
+        -webkit-transform-origin:50% 50%;
+        -webkit-animation-iteration-count: infinite;
+         -webkit-animation-timing-function: linear;
+    }
+}
